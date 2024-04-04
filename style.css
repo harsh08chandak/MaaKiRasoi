@@ -1,0 +1,92 @@
+
+.logf{
+  text-align: center;
+  margin-left:430px;
+}
+
+.navi>ul>li>a{
+  font-size: 25px;
+  margin: 5px;
+}
+.nav-item{
+  padding-top: 0;
+  padding-left:40px;
+}
+.nav-item>a:hover, .active>.nav-link {
+    color: #ffc107;
+}
+a.logo{
+    text-align: center;
+    font-size: 60px;
+    display: flex;  
+  }
+.logo{
+  margin-right: 200px;
+}
+.map{
+  height: 350px;
+  width: 500px;
+  }
+  @media (max-width:1000px){
+      .map{
+          height: 320px;
+          width: 263px;
+      } 
+      .info{
+        height: 500px;
+      }   
+
+      .logf{
+        margin-left: 42px;
+      }
+      hr.line{
+        border-top: 4px solid rgb(0, 0, 0);
+        height: 2px;
+        width: 200px;
+      }
+      hr.lyn{
+        border-top: 2px solid rgb(0, 0, 0);
+        height: 12px;
+        width: 209px;
+        margin-left: 20%;
+      }
+  }
+  .container{
+  animation: slideInUp 1s ease;
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .in{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-style: normal;
+        }
+::-webkit-scrollbar{
+  width: 14 px;
+} 
+::-webkit-scrollbar-track{
+  background-color: rgba(33, 40, 41, 0.971);
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: #ffc107;
+  border-radius: 79px;
+}
+.menusec{
+  margin: 0;
+  background: rgb(164,169,170);
+background: linear-gradient(0deg, rgba(164,169,170,1) 0%, rgba(255,193,7,1) 100%);
+}
+.carousel-inner>.carousel-item>.c-img{
+  object-fit: cover;
+  object-position: center;
+  height: 40vh;
+  overflow: hidden;
+}
