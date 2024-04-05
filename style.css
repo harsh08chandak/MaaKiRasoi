@@ -21,13 +21,13 @@ a.logo{
     display: flex;  
   }
 .logo{
-  margin-right: 200px;
+  margin-right: 20px;
 }
 .map{
   height: 350px;
   width: 500px;
   }
-  @media (max-width:570px){
+  @media (max-width:1000px){
       .map{
           height: 320px;
           width: 263px;
