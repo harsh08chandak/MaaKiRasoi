@@ -27,7 +27,7 @@ a.logo{
   height: 350px;
   width: 500px;
   }
-  @media (max-width:1000px){
+  @media (max-width:570px){
       .map{
           height: 320px;
           width: 263px;
