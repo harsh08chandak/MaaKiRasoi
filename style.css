@@ -39,6 +39,9 @@ a.logo{
       .logf{
         margin-left: 42px;
       }
+    .log{
+      margin-left:26%;
+    }
       hr.line{
         border-top: 4px solid rgb(0, 0, 0);
         height: 2px;
